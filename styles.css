@@ -1,0 +1,322 @@
+/* ============================
+   GLOBAL STYLES
+============================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f7f9fc;
+  color: #222;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ============================
+   NAVIGATION
+============================ */
+nav {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  padding: 15px 40px;
+  top: 0;
+  z-index: 99;
+}
+
+nav a {
+  padding: 10px 15px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  color: var(--accent);
+  background: rgba(59, 130, 246, 0.06);
+  text-decoration: none;
+}
+
+/* ============================
+   HOME SECTION
+============================ */
+#home {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.poster img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#home h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+#home p {
+  max-width: 800px;
+  margin: 0 auto 10px;
+  font-size: 18px;
+  color: #444;
+}
+
+/* ============================
+   SECTION BASE STYLE
+============================ */
+section {
+  padding: 60px 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+section p {
+  font-size: 17px;
+  color: #444;
+  text-align: center;
+  max-width: 850px;
+  margin: auto;
+}
+
+/* ============================
+   SERVICES
+============================ */
+#services ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+#services li {
+  background: #ffffff;
+  padding: 12px 18px;
+  margin: 8px 0;
+  border-radius: 6px;
+  font-size: 17px;
+  border-left: 4px solid #007bff;
+  transition: 0.2s;
+}
+
+#services li:hover {
+  background: #eef6ff;
+}
+
+/* ============================
+   CERTIFICATES SECTION
+============================ */
+.certificates {
+  background: #ffffff;
+  padding: 80px 20px;
+}
+
+.subtitle {
+  font-size: 26px;
+  text-align: center;
+}
+
+.line {
+  width: 120px;
+  height: 3px;
+  background: #e1e1e1;
+  margin: 10px auto 30px;
+}
+
+.inner-line {
+  width: 50px;
+  height: 3px;
+  background: #007bff;
+}
+
+.certificates-sub-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.certifications-list {
+  display: flex;
+  gap: 15px;
+  background: #f3f7ff;
+  padding: 18px;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+
+.certifications-list:hover {
+  background: #e6f0ff;
+}
+
+.certificate-logo {
+  border-radius: 6px;
+}
+
+.certificate-name {
+  font-size: 20px;
+}
+
+.certificate-org-name {
+  font-size: 16px;
+  color: #666;
+}
+
+.certificate-link img {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.certificate-link-container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.certificate-btn {
+  padding: 12px 25px;
+  background: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.certificate-btn:hover {
+  background: #005ecb;
+}
+
+/* ============================
+   CONTACT FORM
+============================ */
+#contact form {
+  max-width: 600px;
+  margin: 25px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+}
+
+#contact label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#contact button {
+  background: #007bff;
+  color: white;
+  padding: 12px;
+  margin-top: 15px;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background: #005ecb;
+}
+
+/* ============================
+   SOCIAL LINKS
+============================ */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.social-links a {
+  padding: 10px 16px;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: #222;
+  font-weight: 500;
+}
+
+.social-links a:hover {
+  background: #eef6ff;
+  color: #007bff;
+}
+
+/* ============================
+   FOOTER
+============================ */
+footer {
+  background: #111;
+  color: #fff;
+  padding: 18px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* ============================
+   RESPONSIVE DESIGN
+============================ */
+@media (max-width: 768px) {
+  nav {
+    justify-content: center;
+  }
+
+  #home h1 {
+    font-size: 28px;
+  }
+
+  .certificates-sub-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  nav a {
+    font-size: 14px;
+  }
+
+  #home p {
+    font-size: 16px;
+  }
+
+  .certificate-name {
+    font-size: 18px;
+  }
+}
