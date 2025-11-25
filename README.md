@@ -26,7 +26,7 @@
 
 ### Live Demo
 
-[Live URL]https://app.netlify.com/projects/robinpersonalshortas3/overview
+[Live URL --https://robinpersonalshortas3.netlify.app/]
 
 ### Screenshot
 
@@ -36,5 +36,5 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/assignment-repo.git
+   git clone https://github.com/md-shoriful-alam-robin/mern-assignment--3
    ```
